@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-color: #fdf7f2;
+  font-family: 'Caveat', cursive;
+  overflow-x: hidden;
+}
+
+#jarWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#jarImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#ideaText {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 12vw;
+  text-shadow: 0 0 10px white;
+  pointer-events: none;
+  white-space: nowrap;
+  max-width: 90vw;
+  overflow: hidden;
+  text-align: center;
+}
