@@ -1,34 +1,42 @@
+
 body {
   margin: 0;
-  background-color: #fdf7f2;
-  font-family: 'Caveat', cursive;
-  overflow-x: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
-#jarWrapper {
+.container {
   position: relative;
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://i.postimg.cc/nzLr3drG/60-C54766-8735-42-A9-B065-FD94-EBBCEBE6.png');
+  background-size: cover;
+  background-position: center;
 }
 
 #jarImage {
-  width: 100%;
-  height: auto;
-  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60vw;
+  max-width: 400px;
+  transform: translate(-50%, -50%);
 }
 
 #ideaText {
   position: absolute;
-  top: 16%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  font-size: 12vw;
+  font-family: 'Pacifico', cursive;
+  font-size: 7vw;
   text-shadow: 0 0 10px white;
-  pointer-events: none;
-  white-space: nowrap;
-  max-width: 90vw;
-  overflow: hidden;
   text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
 }
