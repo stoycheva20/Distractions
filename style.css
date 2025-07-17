@@ -29,14 +29,13 @@ body {
 
 #ideaText {
   position: absolute;
-  top: 30%;
+  top: 28vh; /* adjust this to sit above the jar lid */
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  font-family: 'Pacifico', cursive;
-  font-size: 7vw;
+  font-size: 8vw;
   text-shadow: 0 0 10px white;
-  text-align: center;
   white-space: nowrap;
   pointer-events: none;
+  z-index: 10;
 }
